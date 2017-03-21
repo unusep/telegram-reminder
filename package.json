@@ -4,6 +4,7 @@
   "description": "a telegram bot to send reminders",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/unusep/telegram-reminder/issues"
   },
-  "homepage": "https://github.com/unusep/telegram-reminder#readme"
+  "homepage": "https://github.com/unusep/telegram-reminder#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "~4.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
