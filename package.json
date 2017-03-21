@@ -1,0 +1,19 @@
+{
+  "name": "telegram-reminder",
+  "version": "1.0.0",
+  "description": "a telegram bot to send reminders",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unusep/telegram-reminder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unusep/telegram-reminder/issues"
+  },
+  "homepage": "https://github.com/unusep/telegram-reminder#readme"
+}
