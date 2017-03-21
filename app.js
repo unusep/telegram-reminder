@@ -3,6 +3,7 @@ const app = express();
 
 var bodyParser = require('body-parser');
 app.use(bodyParser.json());
+require('dotenv').config()
 
 const botToken = process.env.BOT_TOKEN;
 
@@ -30,8 +31,7 @@ const handleUpdate = (req, res) => {
     }
     res.sendStatus(200);
 }
-
-app.post(`/{bot_Token}`, handleUpdate);
+app.post("/" + botToken, handleUpdate);
 
 app.listen(3000, function () {
     console.log('Example app listening on port 3000!');
